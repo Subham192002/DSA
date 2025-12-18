@@ -6,8 +6,11 @@ Time Complexity: O(n)
 */
 
 import java.util.Arrays;
+import java.util.logging.Logger;
 
 public class SecondLargestAndSmallest {
+
+    static Logger log = Logger.getLogger(SecondLargestAndSmallest.class.getName());
 
     public static int[] findSecondLargestAndSmallest(int[] arr) {
         if (arr == null || arr.length < 2) {
@@ -46,6 +49,6 @@ public class SecondLargestAndSmallest {
     public static void main(String[] args) {
         int[] array = {12, 35, 1, 10, 34, 2};
         int[] result = findSecondLargestAndSmallest(array);
-        System.out.println(Arrays.toString(result));
+        log.info(Arrays.toString(result));
     }
 }
