@@ -21,13 +21,13 @@ public class TwoSum {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        System.out.println(Arrays.toString(s.twoSum(new int[]{3,8,10,21}, 31)));
-        System.out.println(Arrays.toString(s.twoSum(new int[]{1, 2, 3, 4, 6}, 6))); // [1, 3]
-        System.out.println(Arrays.toString(s.twoSum(new int[]{1, 2, 3, 4, 5}, 6))); // [0, 4]
-        System.out.println(Arrays.toString(s.twoSum(new int[]{-5, -2, 0, 3, 8}, 1))); // [1, 3]
-        System.out.println(Arrays.toString(s.twoSum(new int[]{1, 1, 2, 3, 4}, 2))); // [0, 1]
-        System.out.println(Arrays.toString(s.twoSum(new int[]{1, 2, 3, 4, 5}, 20))); // []
-        System.out.println(Arrays.toString(s.twoSum(new int[]{-10, -8, -5, -2, -1}, -11))); // [0, 4]
+        LoggerUtil.LOG.info(Arrays.toString(s.twoSum(new int[]{3,8,10,21}, 31)));
+        LoggerUtil.LOG.info(Arrays.toString(s.twoSum(new int[]{1, 2, 3, 4, 6}, 6))); // [1, 3]
+        LoggerUtil.LOG.info(Arrays.toString(s.twoSum(new int[]{1, 2, 3, 4, 5}, 6))); // [0, 4]
+        LoggerUtil.LOG.info(Arrays.toString(s.twoSum(new int[]{-5, -2, 0, 3, 8}, 1))); // [1, 3]
+        LoggerUtil.LOG.info(Arrays.toString(s.twoSum(new int[]{1, 1, 2, 3, 4}, 2))); // [0, 1]
+        LoggerUtil.LOG.info(Arrays.toString(s.twoSum(new int[]{1, 2, 3, 4, 5}, 20))); // []
+        LoggerUtil.LOG.info(Arrays.toString(s.twoSum(new int[]{-10, -8, -5, -2, -1}, -11))); // [0, 4]
 
     }
 }
