@@ -67,7 +67,6 @@ public class Add2LinkedList {
             }
 
         }
-
         return head;
 
     }
