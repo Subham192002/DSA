@@ -14,6 +14,6 @@ public class ReverseWords {
 
     public static void main(String[] args) {
         String s ="  Hello I am        Subham ";
-        System.out.println(reverseWords(s));
+       LoggerUtil.LOG.info(() -> reverseWords(s));
     }
 }
