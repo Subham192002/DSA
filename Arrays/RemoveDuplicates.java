@@ -20,15 +20,11 @@ public class RemoveDuplicates {
         int[] arr = {-2, 2, 4, 4, 4, 4, 5, 5};
         int k = removeDuplicates(arr);
 
-        System.out.println("Unique count = " + k);
+        LoggerUtil.LOG.info("Unique count =" + k);
 
-        System.out.print("Resulting array = [");
+        LoggerUtil.LOG.info("Resulting array = [");
         for (int i = 0; i < arr.length; i++) {
-            if (i < arr.length - 1)
-                System.out.print(arr[i] + ", ");
-            else
-                System.out.print(arr[i]);
+            LoggerUtil.LOG.info("arr[" + i + "] = " + arr[i]);
         }
-        System.out.println("]");
     }
 }
