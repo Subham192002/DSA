@@ -43,9 +43,9 @@ public class IntersectionOfLinkedList {
         ListNode result = sol.getIntersectionNode(headA, headB);
 
         if (result != null) {
-            System.out.println("Intersection at node value: " + result.val);
+            LoggerUtil.LOG.info(() -> "Intersection value: " + result.val);
         } else {
-            System.out.println("No intersection");
+            LoggerUtil.LOG.info("No intersection");
         }
     }
 }
